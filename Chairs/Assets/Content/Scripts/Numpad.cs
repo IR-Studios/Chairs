@@ -8,6 +8,7 @@ public class Numpad : MonoBehaviour
     [Header("Keypad Information")]
     public int code;
     public bool isPowered;
+    public bool codeCorrect;
     
     public int num1, num2, num3, num4;
     [HideInInspector]
@@ -76,6 +77,7 @@ public class Numpad : MonoBehaviour
             doorToUnlock.doorLocked = false;
             doorToUnlock.Audio.Play();
             numpadLight.color = Color.green;
+            codeCorrect = true;
         } else 
         {
             currentNum = 0;

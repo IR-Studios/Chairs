@@ -18,6 +18,9 @@ TagManager:
   - radio
   - lamp
   - hook
+  - BulletCase
+  - Chair
+  - weapon
   layers:
   - Default
   - TransparentFX
@@ -26,7 +29,7 @@ TagManager:
   - Water
   - UI
   - jumpscare
-  - 
+  - weapon
   - 
   - 
   - 

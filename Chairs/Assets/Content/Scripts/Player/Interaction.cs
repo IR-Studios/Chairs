@@ -43,7 +43,8 @@ public class Interaction : MonoBehaviour
             hit.transform.CompareTag("fusebox") ||
             hit.transform.CompareTag("key") ||
             hit.transform.CompareTag("radio") ||
-            hit.transform.CompareTag("lamp") || hit.transform.CompareTag("hook"))
+            hit.transform.CompareTag("lamp") || hit.transform.CompareTag("hook") ||
+            hit.transform.CompareTag("weapon"))
             {
                 if (crosshair != null) 
                 {
@@ -222,6 +223,17 @@ public class Interaction : MonoBehaviour
                     player.sprintSpeed = 3;
                 }
             } 
+            if (hit.transform.tag == "weapon") 
+            {
+                if (Input.GetKeyDown(KeyCode.E) && !PI.hasShotgun) 
+                {
+                    PI.hasShotgun = true;
+                    PI.Shotgun.SetActive(true);
+                    Shotgun shotgun = PI.Shotgun.GetComponent<Shotgun>();
+                    shotgun.FirstDraw();
+                    Destroy(hit.transform.gameObject);
+                }
+            }
 
             }  else 
             {

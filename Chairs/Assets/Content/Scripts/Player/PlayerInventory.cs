@@ -21,10 +21,26 @@ public class PlayerInventory : MonoBehaviour
    void Update() 
    {
         CheckInventory();
+          DrawWeapons();
    }
 
    void CheckInventory() 
    {
         Flashlight.active = hasFlashlight;
+   }
+
+   void DrawWeapons() 
+   {
+     Shotgun gun = Shotgun.GetComponent<Shotgun>();
+     if (Input.GetKeyDown(KeyCode.Alpha1)) 
+        {
+            if (gun.isDrawn) 
+            {
+                gun.ShotgunPutAway();
+            } else {
+               Shotgun.SetActive(true);
+                gun.ShotgunDraw();
+            }
+        }
    }
 }
