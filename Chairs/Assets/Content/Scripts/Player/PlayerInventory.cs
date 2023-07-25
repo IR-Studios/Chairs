@@ -32,7 +32,7 @@ public class PlayerInventory : MonoBehaviour
    void DrawWeapons() 
    {
      Shotgun gun = Shotgun.GetComponent<Shotgun>();
-     if (Input.GetKeyDown(KeyCode.Alpha1)) 
+     if (Input.GetKeyDown(KeyCode.Alpha1) && hasShotgun) 
         {
             if (gun.isDrawn) 
             {

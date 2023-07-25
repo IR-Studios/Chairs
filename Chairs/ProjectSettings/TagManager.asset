@@ -21,6 +21,8 @@ TagManager:
   - BulletCase
   - Chair
   - weapon
+  - ChairDev
+  - Piece
   layers:
   - Default
   - TransparentFX

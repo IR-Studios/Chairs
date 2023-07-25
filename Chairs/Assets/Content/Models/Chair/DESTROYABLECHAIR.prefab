@@ -15,7 +15,7 @@ GameObject:
   - component: {fileID: 2519709895219080937}
   m_Layer: 0
   m_Name: Chair_01.001_cell
-  m_TagString: Untagged
+  m_TagString: Piece
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -130,7 +130,7 @@ GameObject:
   - component: {fileID: 2519709896242082705}
   m_Layer: 0
   m_Name: Chair_01.006_cell.001
-  m_TagString: Untagged
+  m_TagString: Piece
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -245,7 +245,7 @@ GameObject:
   - component: {fileID: 2519709896177301644}
   m_Layer: 0
   m_Name: Chair_01.010
-  m_TagString: Untagged
+  m_TagString: Piece
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -361,7 +361,7 @@ GameObject:
   - component: {fileID: 2519709895891058122}
   m_Layer: 0
   m_Name: Chair_01.007_cell.008
-  m_TagString: Untagged
+  m_TagString: Piece
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -476,7 +476,7 @@ GameObject:
   - component: {fileID: 2519709894999387106}
   m_Layer: 0
   m_Name: Chair_01.005_cell.011
-  m_TagString: Untagged
+  m_TagString: Piece
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -591,7 +591,7 @@ GameObject:
   - component: {fileID: 2519709896215586874}
   m_Layer: 0
   m_Name: Chair_01.005_cell.005
-  m_TagString: Untagged
+  m_TagString: Piece
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -706,7 +706,7 @@ GameObject:
   - component: {fileID: 2519709894942321945}
   m_Layer: 0
   m_Name: Chair_01.005_cell
-  m_TagString: Untagged
+  m_TagString: Piece
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -821,7 +821,7 @@ GameObject:
   - component: {fileID: 2519709894395790630}
   m_Layer: 0
   m_Name: Chair_01.005_cell.017
-  m_TagString: Untagged
+  m_TagString: Piece
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -936,7 +936,7 @@ GameObject:
   - component: {fileID: 2519709894960729542}
   m_Layer: 0
   m_Name: Chair_01.005_cell.010
-  m_TagString: Untagged
+  m_TagString: Piece
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1051,7 +1051,7 @@ GameObject:
   - component: {fileID: 2519709895981546280}
   m_Layer: 0
   m_Name: Chair_01.007_cell
-  m_TagString: Untagged
+  m_TagString: Piece
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1166,7 +1166,7 @@ GameObject:
   - component: {fileID: 2519709895521795606}
   m_Layer: 0
   m_Name: Chair_01.010_cell
-  m_TagString: Untagged
+  m_TagString: Piece
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1281,7 +1281,7 @@ GameObject:
   - component: {fileID: 2519709895953485855}
   m_Layer: 0
   m_Name: Chair_01.005_cell.019
-  m_TagString: Untagged
+  m_TagString: Piece
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1396,7 +1396,7 @@ GameObject:
   - component: {fileID: 2519709896251985159}
   m_Layer: 0
   m_Name: Chair_01.002_cell
-  m_TagString: Untagged
+  m_TagString: Piece
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1511,7 +1511,7 @@ GameObject:
   - component: {fileID: 2519709895068647865}
   m_Layer: 0
   m_Name: Chair_01.003_cell
-  m_TagString: Untagged
+  m_TagString: Piece
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1626,7 +1626,7 @@ GameObject:
   - component: {fileID: 2519709895914127811}
   m_Layer: 0
   m_Name: Chair_01.001_cell.001
-  m_TagString: Untagged
+  m_TagString: Piece
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1741,7 +1741,7 @@ GameObject:
   - component: {fileID: 2519709895131236146}
   m_Layer: 0
   m_Name: Chair_01.005_cell.013
-  m_TagString: Untagged
+  m_TagString: Piece
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1856,7 +1856,7 @@ GameObject:
   - component: {fileID: 2519709895925803072}
   m_Layer: 0
   m_Name: Chair_01.010_cell.001
-  m_TagString: Untagged
+  m_TagString: Piece
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1971,7 +1971,7 @@ GameObject:
   - component: {fileID: 2519709894357555760}
   m_Layer: 0
   m_Name: Chair_01.008_cell.001
-  m_TagString: Untagged
+  m_TagString: Piece
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2086,7 +2086,7 @@ GameObject:
   - component: {fileID: 2519709895935300925}
   m_Layer: 0
   m_Name: Chair_01.004_cell.001
-  m_TagString: Untagged
+  m_TagString: Piece
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2274,7 +2274,7 @@ GameObject:
   - component: {fileID: 2519709895994284384}
   m_Layer: 0
   m_Name: Chair_01.005_cell.012
-  m_TagString: Untagged
+  m_TagString: Piece
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2389,7 +2389,7 @@ GameObject:
   - component: {fileID: 2519709895088108860}
   m_Layer: 0
   m_Name: Chair_01.003_cell.001
-  m_TagString: Untagged
+  m_TagString: Piece
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2504,7 +2504,7 @@ GameObject:
   - component: {fileID: 2519709895400688076}
   m_Layer: 0
   m_Name: Chair_01.009_cell.001
-  m_TagString: Untagged
+  m_TagString: Piece
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2619,7 +2619,7 @@ GameObject:
   - component: {fileID: 2519709895945928678}
   m_Layer: 0
   m_Name: Chair_01.007_cell.006
-  m_TagString: Untagged
+  m_TagString: Piece
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2734,7 +2734,7 @@ GameObject:
   - component: {fileID: 2519709894685454740}
   m_Layer: 0
   m_Name: Chair_01.007_cell.001
-  m_TagString: Untagged
+  m_TagString: Piece
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2849,7 +2849,7 @@ GameObject:
   - component: {fileID: 2519709894278894000}
   m_Layer: 0
   m_Name: Chair_01.005_cell.002
-  m_TagString: Untagged
+  m_TagString: Piece
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2964,7 +2964,7 @@ GameObject:
   - component: {fileID: 2519709895096636638}
   m_Layer: 0
   m_Name: Chair_01.008_cell
-  m_TagString: Untagged
+  m_TagString: Piece
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3079,7 +3079,7 @@ GameObject:
   - component: {fileID: 2519709895946305493}
   m_Layer: 0
   m_Name: Chair_01.004_cell
-  m_TagString: Untagged
+  m_TagString: Piece
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3194,7 +3194,7 @@ GameObject:
   - component: {fileID: 2519709894737532822}
   m_Layer: 0
   m_Name: Chair_01.005_cell.018
-  m_TagString: Untagged
+  m_TagString: Piece
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3309,7 +3309,7 @@ GameObject:
   - component: {fileID: 2519709895036696710}
   m_Layer: 0
   m_Name: Chair_01.005_cell.016
-  m_TagString: Untagged
+  m_TagString: Piece
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3424,7 +3424,7 @@ GameObject:
   - component: {fileID: 2519709895481629896}
   m_Layer: 0
   m_Name: Chair_01.010_cell.002
-  m_TagString: Untagged
+  m_TagString: Piece
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3539,7 +3539,7 @@ GameObject:
   - component: {fileID: 2519709894753807709}
   m_Layer: 0
   m_Name: Chair_01.007_cell.005
-  m_TagString: Untagged
+  m_TagString: Piece
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3654,7 +3654,7 @@ GameObject:
   - component: {fileID: 2519709895098673261}
   m_Layer: 0
   m_Name: Cube_cell.018_cell.004_cell
-  m_TagString: Untagged
+  m_TagString: Piece
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3769,7 +3769,7 @@ GameObject:
   - component: {fileID: 2519709895717334888}
   m_Layer: 0
   m_Name: Chair_01.005_cell.003
-  m_TagString: Untagged
+  m_TagString: Piece
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3884,7 +3884,7 @@ GameObject:
   - component: {fileID: 2519709894612219689}
   m_Layer: 0
   m_Name: Chair_01.009_cell
-  m_TagString: Untagged
+  m_TagString: Piece
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3999,7 +3999,7 @@ GameObject:
   - component: {fileID: 2519709895594949162}
   m_Layer: 0
   m_Name: Chair_01.010_cell.003
-  m_TagString: Untagged
+  m_TagString: Piece
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4114,7 +4114,7 @@ GameObject:
   - component: {fileID: 2519709895730149410}
   m_Layer: 0
   m_Name: Chair_01.005_cell.020
-  m_TagString: Untagged
+  m_TagString: Piece
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4229,7 +4229,7 @@ GameObject:
   - component: {fileID: 2519709895271753536}
   m_Layer: 0
   m_Name: Chair_01.007_cell.003
-  m_TagString: Untagged
+  m_TagString: Piece
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4344,7 +4344,7 @@ GameObject:
   - component: {fileID: 2519709895889061579}
   m_Layer: 0
   m_Name: Chair_01.005_cell.008
-  m_TagString: Untagged
+  m_TagString: Piece
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4459,7 +4459,7 @@ GameObject:
   - component: {fileID: 2519709895754147088}
   m_Layer: 0
   m_Name: Chair_01.005_cell.001
-  m_TagString: Untagged
+  m_TagString: Piece
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4574,7 +4574,7 @@ GameObject:
   - component: {fileID: 2519709894484049419}
   m_Layer: 0
   m_Name: Chair_01.005_cell.009
-  m_TagString: Untagged
+  m_TagString: Piece
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4689,7 +4689,7 @@ GameObject:
   - component: {fileID: 2519709895316146751}
   m_Layer: 0
   m_Name: Chair_01.005_cell.007
-  m_TagString: Untagged
+  m_TagString: Piece
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4804,7 +4804,7 @@ GameObject:
   - component: {fileID: 2519709896385801319}
   m_Layer: 0
   m_Name: Chair_01.002_cell.001
-  m_TagString: Untagged
+  m_TagString: Piece
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

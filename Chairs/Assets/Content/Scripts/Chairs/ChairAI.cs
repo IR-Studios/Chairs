@@ -15,6 +15,27 @@ public class ChairAI : MonoBehaviour
     public int health;
     public int explosionForce;
 
+    public void Start() 
+    {
+        Rigidbody[] childRigidbodies = chairModel.GetComponentsInChildren<Rigidbody>();
+        foreach (Rigidbody rb in childRigidbodies) 
+        {
+            rb.isKinematic = true;
+        }
+    }
+
+    public Rigidbody returnRB(GameObject hit) 
+    {
+        if (hit.GetComponent<Rigidbody>() != null) 
+        {
+            Rigidbody rb = hit.GetComponent<Rigidbody>();
+            return rb;
+        } else 
+        {
+            return null;
+        }
+    }
+
     void Update()
     {
         // Check if the entity can see the player and the player's camera can't see the entity

@@ -46,6 +46,7 @@ public class Shotgun : MonoBehaviour
     private float nextFireTime;
     private bool isAimingDownSights = false;
     private bool isADSActive = false;
+    public bool canFire = true;
     private Vector3 originalWeaponPosition;
 
     private AudioSource audioSource;
@@ -65,7 +66,7 @@ public class Shotgun : MonoBehaviour
         if (isReloading)
             return;
 
-        if (Input.GetButtonDown("Fire1") && Time.time >= nextFireTime)
+        if (Input.GetButtonDown("Fire1") && Time.time >= nextFireTime && canFire)
         {
             if (currentAmmo > 0)
             {
@@ -131,7 +132,8 @@ public class Shotgun : MonoBehaviour
             if (Physics.Raycast(shootPoint.position, coneDirection, out hit, range))
             {
                 Vector3 spawnLocation = hit.point + hit.normal * 0.05f;
-                Instantiate(hitEffectPrefab, spawnLocation, Quaternion.LookRotation(-hit.normal));
+                GameObject hitEffect = Instantiate(hitEffectPrefab, spawnLocation, Quaternion.LookRotation(-hit.normal));
+                hitEffect.transform.parent = hit.transform;
 
                 if (hit.transform.CompareTag("Chair"))
                 {
@@ -142,6 +144,17 @@ public class Shotgun : MonoBehaviour
                         AI.onDeath(shootPoint, 3f, 20f);
                     }
                    
+                }
+
+                if (hit.transform.CompareTag("Piece"))
+                {   
+                    ChairAI AI = hit.transform.GetComponentInParent<ChairAI>();
+                    Rigidbody rb = AI.returnRB(hit.transform.gameObject);
+
+                    rb.isKinematic = false;
+
+                    Vector3 explosionDirection = rb.transform.position - shootPoint.position;
+                    rb.AddForce(explosionDirection.normalized * 10f, ForceMode.Impulse);
                 }
             }
         }
